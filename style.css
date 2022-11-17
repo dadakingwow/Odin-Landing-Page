@@ -5,19 +5,18 @@ html{
 body{
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: 0;
-    height: 100%;
+    padding: 0;
     min-height: 100vh;
-    flex:1
+    width: 100%;
+    flex: 1;
 }
 .top{
     display: flex;
     justify-content: center;
-    align-items: center;
+   height: auto;
     width: 100%;
     background-color: #1F2937;
-    flex-grow: 1;
 }
 .first{
     padding-bottom: 50px;
@@ -54,17 +53,15 @@ a{
 
 .cat{
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
     padding-top: 60px;
-    width: 100%;
-    height: 300px;
-    flex-grow:1
+    height: auto;
 }
 .block{
-    height: 300px;
-    width: 400px;
+    height: 100%;
+    width: 100%;
 }
 
 button{
@@ -106,7 +103,12 @@ button{
     border-radius: 15px;
 }
 .second{  
-    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-grow:1;
 }
 
 .container{
@@ -135,10 +137,10 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex: 1 1 auto;
-    height: 300px;
+    min-height: 300px;
     width: 100%;
     background-color: #E5E7EB;
+    flex-grow:1;
 
 }
 .quote{
@@ -146,11 +148,12 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 150px;
+    height: 50%;
+    width: 70%;
+    flex:none;
 }
 
-.inspiring.quote{
+.inspiring{
     font-size: 36px;
     width: 80%;
     font-weight: 100;
@@ -161,14 +164,17 @@ span{
     justify-content: flex-end;
     font-weight: bolder;
     width: 80%;
+    height: auto;
 }
 
 .fourth{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 100%;
     width: 100%;
+    margin: 10px 0;
+    flex-grow:1;
 }
 
 .fourth-container{
@@ -216,7 +222,6 @@ color: #E5E7EB;
     align-items: center;
     background-color: #1F2937;
     width: 100%;
-    height: 75px;
 }
 
 .footer-text{
